@@ -1,0 +1,5 @@
+Yee Whye Teh's tutorial on Dirichlet Processes:
+http://videolectures.net/mlss07_teh_dp/
+
+Michael Jordan on Non-Parametric Bayesian statistics:
+http://videolectures.net/icml05_jordan_dpcrp/
