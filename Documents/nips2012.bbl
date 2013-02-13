@@ -1,0 +1,38 @@
+\begin{thebibliography}{4}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Eisenstein et~al.(2010)Eisenstein, O'Connor, Smith, and
+  Xing]{eisenstein2010latent}
+Jacob Eisenstein, Brendan O'Connor, Noah~A Smith, and Eric~P Xing.
+\newblock A latent variable model for geographic lexical variation.
+\newblock In \emph{Proceedings of the 2010 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1277--1287. Association for Computational
+  Linguistics, 2010.
+
+\bibitem[Eisenstein et~al.(2011)Eisenstein, Ahmed, and
+  Xing]{eisenstein2011sparse}
+Jacob Eisenstein, Amr Ahmed, and Eric~P Xing.
+\newblock Sparse additive generative models of text.
+\newblock In \emph{Proceedings of ICML}, pages 1041--1048, 2011.
+
+\bibitem[Klebanov et~al.(2009)Klebanov, Beigman, and
+  Diermeier]{klebanov2009discourse}
+Beata~Beigman Klebanov, Eyal Beigman, and Daniel Diermeier.
+\newblock Discourse topics and metaphors.
+\newblock In \emph{Proceedings of the Workshop on Computational Approaches to
+  Linguistic Creativity}, pages 1--8. Association for Computational
+  Linguistics, 2009.
+
+\bibitem[Li et~al.(2010)Li, Roth, and Sporleder]{li2010topic}
+Linlin Li, Benjamin Roth, and Caroline Sporleder.
+\newblock Topic models for word sense disambiguation and token-based idiom
+  detection.
+\newblock In \emph{Proceedings of the 48th Annual Meeting of the Association
+  for Computational Linguistics}, pages 1138--1147. Association for
+  Computational Linguistics, 2010.
+
+\end{thebibliography}
