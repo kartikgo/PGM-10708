@@ -3,3 +3,6 @@ http://videolectures.net/mlss07_teh_dp/
 
 Michael Jordan on Non-Parametric Bayesian statistics:
 http://videolectures.net/icml05_jordan_dpcrp/
+
+Sparse Additive Generative models and more(code):
+http://www.cc.gatech.edu/~jeisenst/software.html

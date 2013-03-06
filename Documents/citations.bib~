@@ -1,0 +1,34 @@
+@inproceedings{eisenstein2010latent,
+  title={A latent variable model for geographic lexical variation},
+  author={Eisenstein, Jacob and O'Connor, Brendan and Smith, Noah A and Xing, Eric P},
+  booktitle={Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing},
+  pages={1277--1287},
+  year={2010},
+  organization={Association for Computational Linguistics}
+}
+
+@inproceedings{eisenstein2011sparse,
+  title={Sparse additive generative models of text},
+  author={Eisenstein, Jacob and Ahmed, Amr and Xing, Eric P},
+  booktitle={Proceedings of ICML},
+  pages={1041--1048},
+  year={2011}
+}
+
+@inproceedings{li2010topic,
+  title={Topic models for word sense disambiguation and token-based idiom detection},
+  author={Li, Linlin and Roth, Benjamin and Sporleder, Caroline},
+  booktitle={Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics},
+  pages={1138--1147},
+  year={2010},
+  organization={Association for Computational Linguistics}
+}
+
+@inproceedings{klebanov2009discourse,
+  title={Discourse topics and metaphors},
+  author={Klebanov, Beata Beigman and Beigman, Eyal and Diermeier, Daniel},
+  booktitle={Proceedings of the Workshop on Computational Approaches to Linguistic Creativity},
+  pages={1--8},
+  year={2009},
+  organization={Association for Computational Linguistics}
+}

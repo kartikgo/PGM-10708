@@ -1,0 +1,72 @@
+\documentclass{article} % For LaTeX2e
+\usepackage{nips12submit_e,times}
+\usepackage{natbib}
+%\documentstyle[nips12submit_09,times,art10]{article} % For LaTeX 2.09
+
+
+\title{Detecting Metaphors in Textual Data}
+
+
+\author{
+Kartik Goyal\\
+School of Computer Science\\
+Carnegie Mellon University\\
+Pittsburgh, PA 15213 \\
+\texttt{kartikgo@cs.cmu.edu} \\
+\And
+Shriphani Palakodety \\
+School of Computer Science \\
+Carnegie Mellon University\\
+Pittsburgh, PA 15213 \\
+\texttt{spalakod@cs.cmu.edu} \\
+\AND
+Thom Popovici \\
+ECE\\
+Carnegie Mellon University\\
+Pittsburgh, PA 15213 \\
+\texttt{dpopovic@andrew.cmu.edu} \\
+}
+
+% The \author macro works with any number of authors. There are two commands
+% used to separate the names and addresses of multiple authors: \And and \AND.
+%
+% Using \And between authors leaves it to \LaTeX{} to determine where to break
+% the lines. Using \AND forces a linebreak at that point. So, if \LaTeX{}
+% puts 3 of 4 authors names on the first line, and the last on the second
+% line, try using \AND instead of \And before the third author name.
+
+\newcommand{\fix}{\marginpar{FIX}}
+\newcommand{\new}{\marginpar{NEW}}
+
+\nipsfinalcopy % Uncomment for camera-ready version
+
+\begin{document}
+
+
+\maketitle
+\section{Project Idea}
+Our project deals with detecting metaphors in textual data. A metaphor is a figure of speech in which a word or phrase is applied to an object or action to which it is not literally applicable. In this project, our hypothesis is that metaphors used in language are generated from a thought process much similar to the one behind generating semantics and topics responsible for the surface form of text. Previous generative models propose that there exists a background distribution for the text and each latent topic modifies this background distribution. In addition, a perspective which influences these topic distrbutions can be modelled as a further perturbation to these distributions \cite{eisenstein2011sparse}. We aim to model metaphors as such a perspective. We also draw analogies from \cite{eisenstein2010latent}, which attempts to model the lexical variations according to geography as a multi-generative model whose observables are both text and the geotags, where the metaphors are analogous to the geotags.\\
+The area of metaphor detection using topic models has not received a lot of attention. \cite{klebanov2009discourse} proposed that the words representing topics are generally not metaphorical and their experiments validate this hypothesis. \cite{li2010topic} use topic models for word-sense disambiguation and Idiom detection using a corpus of paraphrases.
+
+
+\section{Dataset}
+We plan to use two kinds of data sources:
+\begin{itemize}
+\item Annotated Data: We have 1300 annotated sentences, which identify the exact words which play a metaphorical role in the corresponding sentence. This data set will aid in supervised settings and evaluation.
+\item Unannotated Corpus: We plan to obtain metaphor-rich content from the World Wide Web. We are currently targetting various blogs, public domain literature and movie scripts. This dataset will be used extensively in unsupervised settings.
+\end{itemize}
+
+\section{Software}
+We will write code for implementing the generative model we formulate for metaphor detection. In addition,we will also write a web crawler and a scraper for collecting data to build our unannotated corpus.
+
+\section{Midterm Milestone}
+We plan to implement a basic generative model based on our readings and approach. We will also set up a test bench for evaluation of our model and its comparison with a baseline approach for our task. Our whole team will contribute equally, to all the aspects of the project.
+
+
+
+
+
+
+\bibliographystyle{plainnat}
+\bibliography{nips2012}
+\end{document}
